@@ -9,7 +9,7 @@ public class Game {
 	private static String[] names;
 	//private Board boards;
 	//private Boat boats;
-	private GUI gui;
+	private static  GUI gui;
 	
 	public static void main(String[] args) {
 		//lägg till allt som skall läggas till
@@ -23,8 +23,6 @@ public class Game {
 		//GUI gui;
 		
 		gui = new GUI();
-		
-		
 		
 		boats = GUI.drawPutBoats();
 		
